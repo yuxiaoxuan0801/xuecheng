@@ -34,13 +34,13 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     height: 42px; ;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .nav {
     float: left;
     margin-left: 70px;
     margin-top: 14px;
-    background-color: orange;
+    /* background-color: orange; */
     line-height: 18px;
 }
 .nav li {
@@ -59,7 +59,7 @@ body {
     margin-left: 86px;
     width: 361px;
     height: 40px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     border: 1px solid #00a4ff;
 }
 .search input {
@@ -67,8 +67,30 @@ body {
     height: 38px;
     padding: 13px 18px;
 }
-.searchButton img {
+.searchButton {
     float: left;
-    width: 51px;
+    width: 50px;
     height: 40px;
+}
+.usr {
+    float: right;
+    margin-left: 31px;
+    height: 40px;
+}
+.usr img {
+    vertical-align: middle;
+}
+.banner {
+    background-color: #1c036c;
+    height: 420px;
+}
+.banner .wrapper {
+    height: 420px;
+   background-image: url(../images/banner2.png);
+}
+.banner .left {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgb(255, 255, 255,0.3);
 }
