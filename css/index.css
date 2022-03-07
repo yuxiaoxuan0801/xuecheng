@@ -115,3 +115,18 @@ body {
 	height: 300px;
 	background-color: #ffffff;
 }
+.banner .right dt {
+    padding: 16px 60px 14px 68px;
+    background-color: rgb(155, 206, 234);
+    color: #fff;
+}
+.banner .right dd {
+    display: inline-block;
+    width: 228px;
+    font-size: 14px;
+    padding: 0 18px;
+    border-bottom: 2px solid #e5e5e5;
+}
+.right .right_dd {
+    padding: 0 18px;
+}
