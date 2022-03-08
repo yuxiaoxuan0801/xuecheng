@@ -115,3 +115,10 @@ body {
 	height: 300px;
 	background-color: #ffffff;
 }
+.banner .right dt {
+    padding: 16px 66px 14px 68px;
+    font-size: 18px;
+    
+    color: #fff;
+    background-color: #9bceea;
+}
