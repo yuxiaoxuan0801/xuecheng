@@ -163,4 +163,25 @@ body {
 }
 .tuijian .jquery li {
     float: left;
+    line-height: 18px;
+    text-align: center;
+    padding: 0px 35px;
+    margin-top: 20px;
+    border-left: 1px solid #bfbfbf;
+}
+.tuijian a {
+    float: right;
+    margin-right: 26px;
+}
+.jingpin h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.jingpin a {
+    float: right;
+}
+.jingpin {
+    margin-top: 35px;
+    background-color: #00a4ff;
 }
