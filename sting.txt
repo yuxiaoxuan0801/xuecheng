@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class 字符串分隔 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        int abcNumber=0;
+        if (input.length()<8) {
+            for (int i = 0; i < input.length(); i++) {
+                if ('a' < input.charAt(i) || input.charAt(i) < 'z') {
+                    ++abcNumber;
+                }
+            }
+            int xuyaobuling = 8 - abcNumber;
+            for (int i = 0; i < xuyaobuling; i++) {
+                input = input + "0";
+            }
+            System.out.println(input);
+        }else {
+            StringBuilder sb = new StringBuilder(input);
+            for (int i = 0; i < input.length(); i++) {
+                if(i%8==0&&i!=0){
+
+                }
+            }
+            System.out.println(sb.toString());
+            String ss = sb.toString();
+            String[] split = ss.split(",");
+            for (String s : split){
+                System.out.println(s);
+            }
+        }
+    }
+}
